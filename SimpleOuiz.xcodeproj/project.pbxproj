@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6429714C2725E0D0B198A0DC /* Pods_SimpleOuiz_SimpleOuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C099101D8FC69CF9D5FD8896 /* Pods_SimpleOuiz_SimpleOuizUITests.framework */; };
+		6D064882285313AA00347F20 /* batu-cutout.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D064881285313AA00347F20 /* batu-cutout.png */; };
+		6D064884285313B900347F20 /* maru-cutout.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D064883285313B900347F20 /* maru-cutout.png */; };
+		6D06488628531BB000347F20 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06488528531BB000347F20 /* SelectLevelViewController.swift */; };
+		6D0648882853210E00347F20 /* Quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D0648872853210E00347F20 /* Quiz2.csv */; };
+		6D06488A2853213E00347F20 /* Quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D0648892853213E00347F20 /* Quiz3.csv */; };
+		6D2C03992850150200C0D11E /* Quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C03982850150200C0D11E /* Quiz1.csv */; };
 		6DA16A3A284DE0350048B8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A39284DE0350048B8CC /* AppDelegate.swift */; };
 		6DA16A3C284DE0350048B8CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A3B284DE0350048B8CC /* SceneDelegate.swift */; };
 		6DA16A3E284DE0350048B8CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A3D284DE0350048B8CC /* ViewController.swift */; };
@@ -16,6 +23,10 @@
 		6DA16A51284DE0370048B8CC /* SimpleOuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A50284DE0370048B8CC /* SimpleOuizTests.swift */; };
 		6DA16A5B284DE0370048B8CC /* SimpleOuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A5A284DE0370048B8CC /* SimpleOuizUITests.swift */; };
 		6DA16A5D284DE0370048B8CC /* SimpleOuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A5C284DE0370048B8CC /* SimpleOuizUITestsLaunchTests.swift */; };
+		6DA16A6A284DE1CE0048B8CC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A69284DE1CE0048B8CC /* QuizViewController.swift */; };
+		6DA16A6C284DE2790048B8CC /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA16A6B284DE2790048B8CC /* ScoreViewController.swift */; };
+		8CFDC863E9F8D5AF93EE992A /* Pods_SimpleOuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12618B9C11745F3AD985B547 /* Pods_SimpleOuizTests.framework */; };
+		B6AF5EBB05E5E11542CF0409 /* Pods_SimpleOuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC230DFC8F4735DAE7E97F4 /* Pods_SimpleOuiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12618B9C11745F3AD985B547 /* Pods_SimpleOuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleOuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC230DFC8F4735DAE7E97F4 /* Pods_SimpleOuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleOuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2397DCD79E409822D317D1DD /* Pods-SimpleOuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleOuizTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleOuizTests/Pods-SimpleOuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		304BC0ACBF34D0C15D6F867C /* Pods-SimpleOuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleOuiz.debug.xcconfig"; path = "Target Support Files/Pods-SimpleOuiz/Pods-SimpleOuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		6947E02F3FF05C71BD423BD6 /* Pods-SimpleOuiz-SimpleOuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleOuiz-SimpleOuizUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleOuiz-SimpleOuizUITests/Pods-SimpleOuiz-SimpleOuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D064881285313AA00347F20 /* batu-cutout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batu-cutout.png"; sourceTree = "<group>"; };
+		6D064883285313B900347F20 /* maru-cutout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maru-cutout.png"; sourceTree = "<group>"; };
+		6D06488528531BB000347F20 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		6D0648872853210E00347F20 /* Quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz2.csv; sourceTree = "<group>"; };
+		6D0648892853213E00347F20 /* Quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz3.csv; sourceTree = "<group>"; };
+		6D2C03982850150200C0D11E /* Quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz1.csv; sourceTree = "<group>"; };
 		6DA16A36284DE0350048B8CC /* SimpleOuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleOuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA16A39284DE0350048B8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DA16A3B284DE0350048B8CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,12 @@
 		6DA16A56284DE0370048B8CC /* SimpleOuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleOuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA16A5A284DE0370048B8CC /* SimpleOuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOuizUITests.swift; sourceTree = "<group>"; };
 		6DA16A5C284DE0370048B8CC /* SimpleOuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DA16A69284DE1CE0048B8CC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		6DA16A6B284DE2790048B8CC /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		79177102AB8CBD0BB1B4B2C8 /* Pods-SimpleOuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleOuiz.release.xcconfig"; path = "Target Support Files/Pods-SimpleOuiz/Pods-SimpleOuiz.release.xcconfig"; sourceTree = "<group>"; };
+		A1C201F3EAC347C6EE55C0D1 /* Pods-SimpleOuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleOuizTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleOuizTests/Pods-SimpleOuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		A89E3165CE64BF9C65018D54 /* Pods-SimpleOuiz-SimpleOuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleOuiz-SimpleOuizUITests.release.xcconfig"; path = "Target Support Files/Pods-SimpleOuiz-SimpleOuizUITests/Pods-SimpleOuiz-SimpleOuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C099101D8FC69CF9D5FD8896 /* Pods_SimpleOuiz_SimpleOuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleOuiz_SimpleOuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AF5EBB05E5E11542CF0409 /* Pods_SimpleOuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFDC863E9F8D5AF93EE992A /* Pods_SimpleOuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6429714C2725E0D0B198A0DC /* Pods_SimpleOuiz_SimpleOuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D1286E928508BCB00946C16 /* marubatu 1 */ = {
+			isa = PBXGroup;
+			children = (
+				6D064883285313B900347F20 /* maru-cutout.png */,
+				6D064881285313AA00347F20 /* batu-cutout.png */,
+			);
+			path = "marubatu 1";
+			sourceTree = "<group>";
+		};
 		6DA16A2D284DE0350048B8CC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				6DA16A4F284DE0370048B8CC /* SimpleOuizTests */,
 				6DA16A59284DE0370048B8CC /* SimpleOuizUITests */,
 				6DA16A37284DE0350048B8CC /* Products */,
+				6EB7903B90D5C1B2A97DDA02 /* Pods */,
+				99CBE0F8DBCC6C8E87DB11A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +145,16 @@
 				6DA16A3B284DE0350048B8CC /* SceneDelegate.swift */,
 				6DA16A3D284DE0350048B8CC /* ViewController.swift */,
 				6DA16A3F284DE0350048B8CC /* Main.storyboard */,
+				6D2C03982850150200C0D11E /* Quiz1.csv */,
+				6D0648872853210E00347F20 /* Quiz2.csv */,
+				6D0648892853213E00347F20 /* Quiz3.csv */,
+				6DA16A6B284DE2790048B8CC /* ScoreViewController.swift */,
+				6DA16A69284DE1CE0048B8CC /* QuizViewController.swift */,
+				6D1286E928508BCB00946C16 /* marubatu 1 */,
 				6DA16A42284DE0370048B8CC /* Assets.xcassets */,
 				6DA16A44284DE0370048B8CC /* LaunchScreen.storyboard */,
 				6DA16A47284DE0370048B8CC /* Info.plist */,
+				6D06488528531BB000347F20 /* SelectLevelViewController.swift */,
 			);
 			path = SimpleOuiz;
 			sourceTree = "<group>";
@@ -127,6 +176,30 @@
 			path = SimpleOuizUITests;
 			sourceTree = "<group>";
 		};
+		6EB7903B90D5C1B2A97DDA02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				304BC0ACBF34D0C15D6F867C /* Pods-SimpleOuiz.debug.xcconfig */,
+				79177102AB8CBD0BB1B4B2C8 /* Pods-SimpleOuiz.release.xcconfig */,
+				6947E02F3FF05C71BD423BD6 /* Pods-SimpleOuiz-SimpleOuizUITests.debug.xcconfig */,
+				A89E3165CE64BF9C65018D54 /* Pods-SimpleOuiz-SimpleOuizUITests.release.xcconfig */,
+				2397DCD79E409822D317D1DD /* Pods-SimpleOuizTests.debug.xcconfig */,
+				A1C201F3EAC347C6EE55C0D1 /* Pods-SimpleOuizTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99CBE0F8DBCC6C8E87DB11A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FC230DFC8F4735DAE7E97F4 /* Pods_SimpleOuiz.framework */,
+				C099101D8FC69CF9D5FD8896 /* Pods_SimpleOuiz_SimpleOuizUITests.framework */,
+				12618B9C11745F3AD985B547 /* Pods_SimpleOuizTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DA16A60284DE0370048B8CC /* Build configuration list for PBXNativeTarget "SimpleOuiz" */;
 			buildPhases = (
+				F548B5D0DE32E976650F931D /* [CP] Check Pods Manifest.lock */,
 				6DA16A32284DE0350048B8CC /* Sources */,
 				6DA16A33284DE0350048B8CC /* Frameworks */,
 				6DA16A34284DE0350048B8CC /* Resources */,
+				6DA007892781738911069B44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DA16A63284DE0370048B8CC /* Build configuration list for PBXNativeTarget "SimpleOuizTests" */;
 			buildPhases = (
+				57D15FE6D0ED9444DDEA2E68 /* [CP] Check Pods Manifest.lock */,
 				6DA16A48284DE0370048B8CC /* Sources */,
 				6DA16A49284DE0370048B8CC /* Frameworks */,
 				6DA16A4A284DE0370048B8CC /* Resources */,
@@ -169,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DA16A66284DE0370048B8CC /* Build configuration list for PBXNativeTarget "SimpleOuizUITests" */;
 			buildPhases = (
+				8AB0124861A646D2A41FCB98 /* [CP] Check Pods Manifest.lock */,
 				6DA16A52284DE0370048B8CC /* Sources */,
 				6DA16A53284DE0370048B8CC /* Frameworks */,
 				6DA16A54284DE0370048B8CC /* Resources */,
+				765252A26C8B8AADE6D07841 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +309,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0648882853210E00347F20 /* Quiz2.csv in Resources */,
 				6DA16A46284DE0370048B8CC /* LaunchScreen.storyboard in Resources */,
 				6DA16A43284DE0370048B8CC /* Assets.xcassets in Resources */,
+				6D064884285313B900347F20 /* maru-cutout.png in Resources */,
 				6DA16A41284DE0350048B8CC /* Main.storyboard in Resources */,
+				6D2C03992850150200C0D11E /* Quiz1.csv in Resources */,
+				6D064882285313AA00347F20 /* batu-cutout.png in Resources */,
+				6D06488A2853213E00347F20 /* Quiz3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +336,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57D15FE6D0ED9444DDEA2E68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleOuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA007892781738911069B44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleOuiz/Pods-SimpleOuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleOuiz/Pods-SimpleOuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleOuiz/Pods-SimpleOuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765252A26C8B8AADE6D07841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleOuiz-SimpleOuizUITests/Pods-SimpleOuiz-SimpleOuizUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleOuiz-SimpleOuizUITests/Pods-SimpleOuiz-SimpleOuizUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleOuiz-SimpleOuizUITests/Pods-SimpleOuiz-SimpleOuizUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB0124861A646D2A41FCB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleOuiz-SimpleOuizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F548B5D0DE32E976650F931D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleOuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DA16A32284DE0350048B8CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +446,10 @@
 			files = (
 				6DA16A3E284DE0350048B8CC /* ViewController.swift in Sources */,
 				6DA16A3A284DE0350048B8CC /* AppDelegate.swift in Sources */,
+				6DA16A6C284DE2790048B8CC /* ScoreViewController.swift in Sources */,
 				6DA16A3C284DE0350048B8CC /* SceneDelegate.swift in Sources */,
+				6DA16A6A284DE1CE0048B8CC /* QuizViewController.swift in Sources */,
+				6D06488628531BB000347F20 /* SelectLevelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +623,7 @@
 		};
 		6DA16A61284DE0370048B8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304BC0ACBF34D0C15D6F867C /* Pods-SimpleOuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +652,7 @@
 		};
 		6DA16A62284DE0370048B8CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79177102AB8CBD0BB1B4B2C8 /* Pods-SimpleOuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +681,7 @@
 		};
 		6DA16A64284DE0370048B8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2397DCD79E409822D317D1DD /* Pods-SimpleOuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +702,7 @@
 		};
 		6DA16A65284DE0370048B8CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C201F3EAC347C6EE55C0D1 /* Pods-SimpleOuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +723,7 @@
 		};
 		6DA16A67284DE0370048B8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6947E02F3FF05C71BD423BD6 /* Pods-SimpleOuiz-SimpleOuizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +742,7 @@
 		};
 		6DA16A68284DE0370048B8CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89E3165CE64BF9C65018D54 /* Pods-SimpleOuiz-SimpleOuizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

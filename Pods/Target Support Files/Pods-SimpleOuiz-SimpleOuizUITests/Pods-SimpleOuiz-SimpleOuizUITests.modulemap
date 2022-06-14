@@ -1,0 +1,6 @@
+framework module Pods_SimpleOuiz_SimpleOuizUITests {
+  umbrella header "Pods-SimpleOuiz-SimpleOuizUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
